@@ -1,21 +1,95 @@
 body {
-  
   font-family: "Ubuntu", sans-serif;
-  padding: 20px 50px;
+  background-color: #406882;
+  color: aliceblue;
+  margin: 0%;
 }
 
-img {
-  width: 50%;
-  text-align: center;
+.global-images {
+  width: 450px;
 }
+
 .flex-section {
   display: flex;
+  padding: 50px 100px;
+}
+
+.main-title {
+  font-family: "Gideon Roman", cursive;
+  font-size: 50px;
+  padding-left: 15px;
+  border-left: 2px solid #1a374d;
+}
+
+span {
+  color: #f49460;
+}
+
+.link-button {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  background-color: #1a374d;
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+small {
+  display: block;
+  padding: 15px 0;
 }
 
 .half-split {
   width: 50%;
 }
 
-.missions{
+.middle-header {
+  text-align: center;
+}
+
+.illustrator,
+.customer-pic {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.customer-pic {
+  border-radius: 100px;
+}
+
+.target {
   width: 30%;
+  margin: 0 20px;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+
+.mission {
+  background-color: #293b5f;
+}
+
+.vission {
+  background-color: #47597e;
+}
+
+.goal {
+  background-color: #26374b;
+}
+
+.customer {
+  text-align: center;
+  padding: 0 50px;
+}
+
+footer {
+  background-color: #171717;
+  text-align: center;
+}
+
+.footer-title {
+  font-family: "Gideon Roman", cursive;
+  font-size: 50px;
+  padding-top: 60px;
 }
