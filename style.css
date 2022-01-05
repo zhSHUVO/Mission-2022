@@ -2,16 +2,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-color: #406882;
   color: aliceblue;
-  margin: 0%;
-}
-
-.global-images {
-  width: 450px;
-}
-
-.flex-section {
-  display: flex;
-  padding: 50px 100px;
+  margin: 0;
 }
 
 .main-title {
@@ -40,8 +31,26 @@ small {
   padding: 15px 0;
 }
 
+.global-images {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.flex-section {
+  display: flex;
+  padding: 50px 100px;
+  margin: 0 200px;
+  justify-content: none;
+}
+
+h1 {
+  color: #3db2ff;
+}
+
 .half-split {
   width: 50%;
+  padding: 0 50px;
 }
 
 .middle-header {
@@ -55,15 +64,15 @@ small {
   margin: 0 auto;
 }
 
-.customer-pic {
-  border-radius: 100px;
-}
-
 .target {
   width: 30%;
   margin: 0 20px;
   padding: 20px 50px;
   border-radius: 20px;
+}
+
+.target h3 {
+  color: #f4beee;
 }
 
 .mission {
@@ -83,6 +92,14 @@ small {
   padding: 0 50px;
 }
 
+.customer-pic {
+  border-radius: 100px;
+}
+
+.customer h3 {
+  color: #edd2f3;
+}
+
 footer {
   background-color: #171717;
   text-align: center;
@@ -91,5 +108,5 @@ footer {
 .footer-title {
   font-family: "Gideon Roman", cursive;
   font-size: 50px;
-  padding-top: 60px;
+  padding-top: 65px;
 }
