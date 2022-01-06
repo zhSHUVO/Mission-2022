@@ -3,6 +3,11 @@ body {
   background-color: #406882;
   color: aliceblue;
   margin: 0;
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-attachment: fixed;
+  background-position: -250px -250px;
 }
 
 .main-title {
@@ -45,7 +50,7 @@ small {
 }
 
 h1 {
-  color: #3db2ff;
+  color: #55bbff;
 }
 
 .half-split {
