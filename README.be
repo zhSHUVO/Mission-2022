@@ -1,0 +1,1 @@
+This is a very simple and minimal personal template site. You can use it, customize it or share it. Do whatever you want. Have fun.
